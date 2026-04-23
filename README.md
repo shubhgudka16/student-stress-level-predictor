@@ -1,37 +1,23 @@
-📊 Student Stress Level Prediction using KNN
-🚀 Project Overview
+📊 Student Stress Level Prediction
 
-This project predicts the stress level of students (Low, Medium, High) using the K-Nearest Neighbors (KNN) algorithm based on daily lifestyle and academic factors.
+This project predicts student stress levels (Low, Medium, High) using the K-Nearest Neighbors (KNN) algorithm.
 
-🎯 Features Used
-📚 Study Hours
-😴 Sleep Hours
-📱 Screen Time
-📝 Exam Pressure
-🧠 Machine Learning Approach
-Algorithm: K-Nearest Neighbors (KNN)
-Data Preprocessing: Label Encoding
-Feature Scaling: StandardScaler
-Model Evaluation: Accuracy Score & Confusion Matrix
-📂 Dataset
-Custom dataset created for this project
-Contains 50+ student records
-Includes real-life relatable features
-⚙️ Technologies Used
-Python 🐍
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-📈 Output Example
-Enter study hours: 7  
-Enter sleep hours: 4  
-Enter screen time: 6  
-Enter exam pressure: 8  
+🚀 Features
+1.Study Hours
+2.Sleep Hours
+3.Screen Time
+4.Exam Pressure
 
-Stress Level: High 😓
-🔍 Key Learnings
-Importance of feature scaling in KNN
-Understanding distance-based algorithms
-Data preprocessing and model evaluation
-Applying ML to real-world student problems
+🧠 Model
+1.Algorithm: KNN
+2.Preprocessing: Feature Scaling
+3.Evaluation: Accuracy
+
+⚙️ Tech Stack
+Python, Pandas, NumPy, Scikit-learn
+
+▶️ Usage
+Run the script and enter values like:
+Study Hours, Sleep Hours, Screen Time, Exam Pressure
+📌 Output:
+Predicts stress level: Low / Medium / High
