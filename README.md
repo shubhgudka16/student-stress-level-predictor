@@ -1,25 +1,67 @@
-# 📊 Student Stress Level Prediction
+# 📚 Student Stress Level Prediction using K-Nearest Neighbors (KNN)
 
-This project predicts student stress levels (**Low, Medium, High**) using the **K-Nearest Neighbors (KNN)** algorithm.
+A Machine Learning project that predicts the **stress level of students** based on lifestyle and academic factors such as study hours, sleep hours, screen time, and exam pressure.
 
-## 🚀 Features
-- Study Hours  
-- Sleep Hours  
-- Screen Time  
-- Exam Pressure  
+This project uses the **K-Nearest Neighbors (KNN) Classification Algorithm** to classify stress levels into:
 
-## 🧠 Model
-- Algorithm: KNN  
-- Preprocessing: Feature Scaling  
-- Evaluation: Accuracy  
+- Low Stress 😌
+- Medium Stress 😐
+- High Stress 😓
 
-## ⚙️ Tech Stack
-Python, Pandas, NumPy, Scikit-learn  
+---
 
-## ▶️ Usage
-Run the script and enter values like:
-Study Hours, Sleep Hours, Screen Time, Exam Pressure  
+# 🚀 Project Overview
 
-## 📌 Output
-Predicts stress level: Low / Medium / High  
+Student stress has become a major issue in academic life.  
+This project aims to analyze student habits and predict their stress level using Machine Learning.
 
+The model takes the following inputs:
+
+- 📖 Study Hours
+- 😴 Sleep Hours
+- 📱 Screen Time
+- 📝 Exam Pressure
+
+Using these features, the system predicts whether the student has:
+
+- Low Stress
+- Medium Stress
+- High Stress
+
+---
+
+# 🧠 Machine Learning Algorithm Used
+
+## 🔹 K-Nearest Neighbors (KNN)
+
+KNN is a **supervised machine learning classification algorithm**.
+
+### How it works:
+- It compares a new data point with existing data points.
+- Finds the **K nearest neighbors** based on distance.
+- Predicts the class based on majority voting.
+
+### Why KNN?
+- Simple and beginner-friendly
+- Works well for small datasets
+- Easy to understand and implement
+- Good for classification problems
+
+---
+
+# 🛠 Technologies & Libraries Used
+
+- Python 🐍
+- Pandas
+- Scikit-learn (sklearn)
+
+---
+
+# 📂 Project Structure
+
+```bash
+Student-Stress-Prediction/
+│
+├── stress.csv              # Dataset
+├── main.py                 # Main Python program
+├── README.md               # Project documentation
